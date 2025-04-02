@@ -4,7 +4,7 @@ const HelpAndSupport = () => {
   return (
     <>
       {/* Main content area */}
-      <section className="lg:ml-72 rounded-lg bg-white mr-40">
+      <section className="lg:ml-72 rounded-lg bg-white lg:mr-40">
         <article className="p-3 mt-8">
           <header className="p-2">
             <h1 className="md:text-4xl text-xl font-medium text-gray-800 mb-4">

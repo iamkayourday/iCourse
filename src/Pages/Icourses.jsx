@@ -3,7 +3,7 @@ import React from "react";
 const Icourses = () => {
   return (
     <>
-      <section className="md:ml-72 rounded-lg bg-white md:mr-10 lg:mr-40 mb-10">
+      <section className="lg:ml-72 rounded-lg bg-white  lg:mr-40 mb-10">
         {/* Main content area */}
         <article className="p-3 mt-8 border-gray-300 border-b-1">
           <header className="p-2">

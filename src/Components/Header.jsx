@@ -27,17 +27,17 @@ const Header = () => {
 
   return (
     <>
-      {/* Mobile Header (only visible on small screens) */}
-      <div className="md:hidden bg-[#f5f6f7] shadow-sm py-4 px-6 flex justify-between items-center sticky top-0 z-50">
+      {/* Mobile/Tablet Header (visible on small and medium screens) */}
+      <div className="lg:hidden bg-[#f5f6f7] shadow-sm py-4 px-6 flex justify-between items-center sticky top-0 z-50">
         <Link to="/">
-        <div className="flex items-center">
-          <img 
-            src="/icourse-logo.avif" 
-            alt="iCourse Logo" 
-            className="h-8 w-8 mr-2"
-          />
-          <span className="text-lg font-medium text-black">iCourse</span>
-        </div>
+          <div className="flex items-center">
+            <img 
+              src="/icourse-logo.avif" 
+              alt="iCourse Logo" 
+              className="h-8 w-8 mr-2"
+            />
+            <span className="text-lg font-medium text-black">iCourse</span>
+          </div>
         </Link>
         <button 
           onClick={toggleMobileMenu}
@@ -51,26 +51,41 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Sidebar Navigation - shown on tablet (md) and desktop (lg) */}
+      {/* Sidebar Navigation - mobile style on tablet (hidden by default), desktop style on large screens */}
       <div 
         className={`fixed inset-y-0 left-0 transform ${
           isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
-        } md:translate-x-0 transition-transform duration-300 ease-in-out bg-[#f5f6f7]   z-40 overflow-y-auto `}
+        } lg:translate-x-0 transition-transform duration-300 ease-in-out bg-[#f5f6f7] z-40 overflow-y-auto w-64`}
       >
-        <div className="p-6 flex flex-col h-full ">
+        <div className="p-6 flex flex-col h-full">
           {/* Logo */}
-          <Link to="/">
-          <div className="flex items-center mb-10">
-            <img 
-              src="/icourse-logo.avif" 
-              alt="iCourse Logo" 
-              className="h-8 w-8 mr-1"
-            />
-            <h1 className="text-xl font-medium text-black">iCourse</h1>
-          </div>
+          <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>
+            <div className="flex items-center mb-10">
+              <img 
+                src="/icourse-logo.avif" 
+                alt="iCourse Logo" 
+                className="h-8 w-8 mr-3"
+              />
+              <h1 className="text-xl font-medium text-black">iCourse</h1>
+            </div>
           </Link>
 
-          
+          {/* Search Bar */}
+          <div className="mb-8">
+            <h2 className="text-xs uppercase font-semibold text-gray-500 mb-4 tracking-wider">Search</h2>
+            <form onSubmit={handleSearch}>
+              <div className="relative">
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent"
+                />
+                <FiSearch className="absolute left-3 top-3 text-gray-400" />
+              </div>
+            </form>
+          </div>
 
           {/* Main Menu */}
           <div className="mb-8">
@@ -83,7 +98,7 @@ const Header = () => {
                     className="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-gray-400 rounded-lg transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <FiHome className="mr-3" />
+                    <FiHome className="mr-3" size={18} />
                     Dashboard
                   </Link>
                 </li>
@@ -93,7 +108,7 @@ const Header = () => {
                     className="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-gray-400 rounded-lg transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <FiBook className="mr-3" />
+                    <FiBook className="mr-3" size={18} />
                     All iCourse
                   </Link>
                 </li>
@@ -103,7 +118,7 @@ const Header = () => {
                     className="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-gray-400 rounded-lg transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <FiBell className="mr-3" />
+                    <FiBell className="mr-3" size={18} />
                     News
                   </Link>
                 </li>
@@ -113,7 +128,7 @@ const Header = () => {
                     className="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-gray-400 rounded-lg transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <FiInfo className="mr-3" />
+                    <FiInfo className="mr-3" size={18} />
                     About Us
                   </Link>
                 </li>
@@ -122,17 +137,17 @@ const Header = () => {
           </div>
 
           {/* User Menu */}
-          <div>
+          <div >
             <h2 className="text-xs uppercase font-semibold text-gray-500 mb-4 tracking-wider">User</h2>
             <nav>
               <ul className="space-y-2">
                 <li>
                   <Link 
                     to="/apps" 
-                    className="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-400 rounded-lg transition-colors"
+                    className="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-gray-400 rounded-lg transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <FiGrid className="mr-3" />
+                    <FiGrid className="mr-3" size={18} />
                     Apps
                   </Link>
                 </li>
@@ -142,36 +157,20 @@ const Header = () => {
                     className="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-gray-400 rounded-lg transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <FiHelpCircle className="mr-3" />
+                    <FiHelpCircle className="mr-3" size={18} />
                     Help & Support
                   </Link>
                 </li>
               </ul>
             </nav>
           </div>
-
-          {/* Search Bar - Moved to top for better visibility */}
-        <h2 className="text-xs uppercase font-semibold text-gray-500 mb-4 tracking-wider mt-10">User</h2>
-        <form onSubmit={handleSearch} className="mb-8">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Search..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent"
-              />
-              <FiSearch className="absolute left-3 top-3 text-gray-400" />
-            </div>
-          </form>
         </div>
-        
       </div>
 
-      {/* Overlay for mobile menu */}
+      {/* Overlay for mobile/tablet menu */}
       {isMobileMenuOpen && (
         <div 
-          className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
+          className="fixed inset-0 bg-black bg-opacity-50 z-30 lg:hidden"
           onClick={toggleMobileMenu}
         />
       )}

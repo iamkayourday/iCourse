@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <>
-      <section className="md:ml-72 rounded-lg bg-white md:mr-10 lg:mr-40 mb-10">
+      <section className="lg:ml-72 rounded-lg bg-white  lg:mr-40 mb-10">
         {/* Main content area */}
         <article className="p-3 md:mt-8">
           <header className="p-2">
