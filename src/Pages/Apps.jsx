@@ -27,7 +27,7 @@ const Apps = () => {
           </p>
         </article>
 
-        <div className="grid md:grid-cols-2 gap-8 p-4">
+        <div className="grid lg:grid-cols-2 gap-8 p-4">
           {/* Wix */}
           <div className="bg-gray-100 rounded-md p-3 group hover:bg-gray-200  border border-gray-300 hover:shadow-md">
             <div className="flex items-center mb-4 group-hover:text-gray-500">
@@ -72,7 +72,7 @@ const Apps = () => {
               all-in-one workspace for you and your team.
             </p>
             <a
-              href="https://www.wix.com"
+              href="https://www.notion.com"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-200 px-10 py-2 rounded-lg hover:border-black mt-3 cursor-pointer group-hover:bg-gray-300 block text-center w-40"
@@ -100,7 +100,7 @@ const Apps = () => {
               prevention, multi-currency.
             </p>
             <a
-              href="https://www.wix.com"
+              href="https://www.lemonsqueezy.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-200 px-10 py-2 rounded-lg hover:border-black mt-3 cursor-pointer group-hover:bg-gray-300 block text-center w-40"
@@ -126,7 +126,7 @@ const Apps = () => {
               You Experiment with All Kinds of Ideas and Formats.
             </p>
             <a
-              href="https://www.wix.com"
+              href="https://discover.gumroad.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-200 px-10 py-2 rounded-lg hover:border-black mt-3 cursor-pointer group-hover:bg-gray-300 block text-center w-40"
@@ -152,7 +152,7 @@ const Apps = () => {
               projects, and tasks with <i>Asana</i>.
             </p>
             <a
-              href="https://www.wix.com"
+              href="https://app.asana.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-200 px-10 py-2 rounded-lg hover:border-black mt-3 cursor-pointer group-hover:bg-gray-300 block text-center w-40"
@@ -179,7 +179,7 @@ const Apps = () => {
               during the Enlightenment.
             </p>
             <a
-              href="https://www.wix.com"
+              href="https://figma.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-200 px-10 py-2 rounded-lg hover:border-black mt-3 cursor-pointer group-hover:bg-gray-300 block text-center w-40"
