@@ -4,6 +4,10 @@ import { useNavigate, useParams } from "react-router-dom";
 import newsData from "../../datas/news.json";
 
 const NewsDetails = () => {
+  useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  }, []);
   const navigate = useNavigate();
   const { name } = useParams();
 

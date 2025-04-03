@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const HelpAndSupport = () => {
+
+  useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {/* Main content area */}

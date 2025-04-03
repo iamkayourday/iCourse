@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FiArrowRight } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 
@@ -35,7 +35,10 @@ const App = () => {
       image: '/framer.avif'
     }
   ]
-
+  useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="rounded-full bg-white lg:mr-40 mb-10 p-2">
       <header className="mb-10">

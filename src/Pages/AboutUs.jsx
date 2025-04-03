@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Cards from "../Components/Cards";
 
 const AboutUs = () => {
+
+  useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section className="lg:ml-72 rounded-lg bg-white  lg:mr-40 mb-10">

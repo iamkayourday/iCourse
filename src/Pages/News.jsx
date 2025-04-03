@@ -1,10 +1,14 @@
 // News.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import newsData from "../../datas/news.json";
 import { useNavigate } from "react-router-dom";
 
 const News = () => {
+  useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  }, []);
   const navigate = useNavigate();
 
   return (

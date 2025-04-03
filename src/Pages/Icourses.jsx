@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import coursesData from "../../datas/courses.json";
 import { useNavigate } from "react-router-dom"; 
 
 const Icourses = () => {
+  useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  }, []);
   const navigate = useNavigate(); 
 
   return (

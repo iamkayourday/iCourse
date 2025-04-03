@@ -11,7 +11,7 @@ import Faqs from "../Components/Faqs";
 const Dashboard = () => {
   const navigate = useNavigate();
   // Get first 2 courses
-  const featuredCourses = coursesData.slice(0, 2);
+  const featuredCourses = coursesData.slice(0, 6);
 
   return (
     <>

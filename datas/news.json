@@ -1,27 +1,122 @@
 [
-    
-    {
-      "id": 1,
-      "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "title": "The Future of Virtual Reality in Education",
-      "sub-title": "VR technology is transforming how students interact with educational content.",
-      "description": "Immersive learning experiences are becoming more accessible to schools worldwide.",
-      "author": "Michael Chen",
-      "details": {
-        "date": "2023-06-22",
-        "content": "Leading educational institutions are adopting VR solutions to create engaging, interactive learning environments. Studies show VR can improve knowledge retention by up to 75% compared to traditional methods. The technology is particularly effective for complex subjects like anatomy, architecture, and historical recreations, allowing students to explore concepts in 3D space."
-      }
-    },
-    {
-      "id": 2,
-      "img": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "title": "Blockchain Technology for Secure Academic Credentials",
-      "sub-title": "Universities are turning to blockchain to combat credential fraud.",
-      "description": "Decentralized verification systems ensure the authenticity of academic achievements.",
-      "author": "David Rodriguez",
-      "details": {
-        "date": "2023-07-10",
-        "content": "Several prestigious universities have begun issuing digital diplomas on blockchain networks, enabling instant verification by employers and other institutions. This system eliminates the need for time-consuming manual verification processes and significantly reduces cases of diploma forgery. The technology also allows graduates to maintain permanent, tamper-proof records of their academic accomplishments."
-      }
+  {
+    "id": 1,
+    "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "The Future of Virtual Reality in Education",
+    "sub-title": "VR technology is transforming how students interact with educational content",
+    "description": "Immersive learning experiences are becoming more accessible to schools worldwide",
+    "author": "Michael Chen",
+    "details": {
+      "date": "2023-06-22",
+      "content": "Leading educational institutions are adopting VR solutions to create engaging, interactive learning environments. Studies show VR can improve knowledge retention by up to 75% compared to traditional methods. The technology is particularly effective for complex subjects like anatomy, architecture, and historical recreations, allowing students to explore concepts in 3D space."
     }
-  ]
+  },
+  {
+    "id": 2,
+    "img": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "Blockchain Technology for Secure Academic Credentials",
+    "sub-title": "Universities are turning to blockchain to combat credential fraud",
+    "description": "Decentralized verification systems ensure the authenticity of academic achievements",
+    "author": "David Rodriguez",
+    "details": {
+      "date": "2023-07-10",
+      "content": "Several prestigious universities have begun issuing digital diplomas on blockchain networks, enabling instant verification by employers and other institutions. This system eliminates the need for time-consuming manual verification processes and significantly reduces cases of diploma forgery. The technology also allows graduates to maintain permanent, tamper-proof records of their academic accomplishments."
+    }
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "AI-Powered Personalized Learning Platforms Gain Traction",
+    "sub-title": "Adaptive learning systems are revolutionizing education",
+    "description": "Schools report significant improvements in student outcomes with AI tutors",
+    "author": "Sarah Johnson",
+    "details": {
+      "date": "2023-08-15",
+      "content": "Educational platforms using machine learning algorithms to personalize content delivery are showing remarkable results. These systems analyze student performance in real-time, adjusting difficulty levels and suggesting targeted exercises. Early adopters report 30-40% improvement in learning speeds, with the technology proving especially beneficial for students with learning differences."
+    }
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "Gamification Increases Student Engagement by 60%",
+    "sub-title": "Game elements are making learning more interactive and rewarding",
+    "description": "New studies confirm the effectiveness of gamified learning platforms",
+    "author": "Emily Wong",
+    "details": {
+      "date": "2023-09-05",
+      "content": "Educational institutions implementing gamification strategies report dramatically higher student participation rates. Leaderboards, achievement badges, and progress tracking are helping transform mundane subjects into engaging experiences. Particularly effective in STEM education, these approaches are now being adopted by corporate training programs with similar success rates."
+    }
+  },
+  {
+    "id": 5,
+    "img": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "Global Push for Digital Literacy in Developing Nations",
+    "sub-title": "UN-backed initiative aims to bridge the digital education divide",
+    "description": "Low-cost devices and offline learning solutions reaching remote areas",
+    "author": "Kwame Ofori",
+    "details": {
+      "date": "2023-10-12",
+      "content": "A coalition of tech companies and NGOs has launched an ambitious program to deliver digital education tools to underserved communities. Solar-powered learning tablets with preloaded educational content are being distributed across Sub-Saharan Africa and Southeast Asia, accompanied by teacher training programs. Early results show promising improvements in literacy and numeracy rates."
+    }
+  },
+  {
+    "id": 6,
+    "img": "https://images.unsplash.com/photo-1581094794556-082e9dfd5f13?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "Neuroscience Breakthroughs Inform New Teaching Methods",
+    "sub-title": "Brain research is reshaping classroom practices",
+    "description": "Cognitive science principles being applied to curriculum design",
+    "author": "Dr. Lisa Park",
+    "details": {
+      "date": "2023-11-08",
+      "content": "Recent findings in neuroscience are helping educators optimize learning schedules, content delivery, and memory retention techniques. Spaced repetition, interleaved practice, and multisensory learning approaches based on brain research are showing significant improvements in long-term knowledge retention across all age groups."
+    }
+  },
+  {
+    "id": 7,
+    "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "Micro-Credentials Gain Recognition in Job Markets",
+    "sub-title": "Short-form certifications are challenging traditional degrees",
+    "description": "Employers increasingly value skill-specific digital badges",
+    "author": "Carlos Mendez",
+    "details": {
+      "date": "2023-12-01",
+      "content": "Digital badges and nano-degrees from online learning platforms are being recognized by major corporations as valid credentials. This shift is creating more accessible pathways to employment, particularly in tech fields. Industry-specific skill certifications are now being accepted in lieu of college degrees for many entry and mid-level positions."
+    }
+  },
+  {
+    "id": 8,
+    "img": "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "Language Learning Apps Achieve Classroom Integration",
+    "sub-title": "Schools are blending app-based learning with traditional instruction",
+    "description": "Hybrid language programs show 45% faster proficiency gains",
+    "author": "Sophie Martin",
+    "details": {
+      "date": "2024-01-15",
+      "content": "Popular language learning applications are being formally incorporated into school curricula worldwide. This blended approach combines the personalization of AI-driven apps with the social benefits of classroom interaction. Early adopters report students achieving conversational fluency nearly twice as fast as with traditional methods alone."
+    }
+  },
+  {
+    "id": 9,
+    "img": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "Cybersecurity Education Becomes K-12 Priority",
+    "sub-title": "Schools worldwide add digital safety to core curriculum",
+    "description": "New standards prepare students for increasingly digital world",
+    "author": "Raj Patel",
+    "details": {
+      "date": "2024-02-20",
+      "content": "With cyber threats growing more sophisticated, education systems are implementing comprehensive digital literacy and cybersecurity programs starting in elementary school. These initiatives teach password hygiene, privacy protection, and critical thinking about online information, creating a generation of more security-conscious digital citizens."
+    }
+  },
+  {
+    "id": 10,
+    "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "title": "AR Textbooks Revolutionize Science Education",
+    "sub-title": "Augmented reality brings complex concepts to life",
+    "description": "Interactive 3D models replace static diagrams in classrooms",
+    "author": "Dr. Emma Zhang",
+    "details": {
+      "date": "2024-03-10",
+      "content": "Augmented reality textbooks are transforming science education by allowing students to manipulate 3D models of molecules, organisms, and geological formations. Early studies show these interactive tools help students grasp abstract concepts 40% faster than traditional methods, with particularly strong benefits for visual and kinesthetic learners."
+    }
+  }
+]

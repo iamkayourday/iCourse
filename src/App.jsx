@@ -12,6 +12,7 @@ import Footer from "./Components/Footer";
 import NewsDetails from "./Pages/NewsDetails";
 
 const App = () => {
+  
   return (
     <Router>
 

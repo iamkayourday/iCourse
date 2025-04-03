@@ -46,5 +46,124 @@
         "level": "Advanced",
         "content": "This course teaches blockchain fundamentals, Ethereum architecture, Solidity programming, and smart contract development. Students will learn to build and deploy decentralized applications (DApps) while understanding security best practices and gas optimization techniques."
       }
+    },
+    {
+      "id": 4,
+      "img": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "Full-Stack Web Development with React & Node.js",
+      "sub-title": "Build modern web applications from front to back",
+      "description": "10-week comprehensive full-stack development bootcamp",
+      "instructor": "Alex Rodriguez",
+      "price": 199,
+      "details": {
+        "start_date": "2023-10-01",
+        "subtitles": "English, Spanish, French",
+        "duration": "10 weeks",
+        "level": "Intermediate",
+        "content": "Master the MERN stack (MongoDB, Express, React, Node.js) through hands-on projects. Learn authentication, API development, state management, and deployment strategies. By the end, you'll have built and deployed a complete portfolio-worthy application.",
+        "content2": "The course includes modern development practices like containerization with Docker, CI/CD pipelines, and performance optimization. You'll also learn testing strategies and agile development methodologies used in professional environments."
+      }
+    },
+    {
+      "id": 5,
+      "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "Data Science Fundamentals with Python",
+      "sub-title": "Turn data into insights with Python's data science stack",
+      "description": "8-week practical introduction to data science",
+      "instructor": "Dr. Priya Patel",
+      "price": 149,
+      "details": {
+        "start_date": "2023-09-18",
+        "subtitles": "English, Hindi, Mandarin",
+        "duration": "8 weeks",
+        "level": "Beginner",
+        "content": "Learn data analysis, visualization, and machine learning using Pandas, NumPy, Matplotlib, and Scikit-learn. Work with real-world datasets to solve business problems and create compelling data stories.",
+        "content2": "The course covers data cleaning techniques, exploratory data analysis, statistical modeling, and an introduction to machine learning algorithms. You'll complete a capstone project analyzing a complex dataset from start to finish."
+      }
+    },
+    {
+      "id": 6,
+      "img": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "UX/UI Design Masterclass",
+      "sub-title": "From user research to polished interfaces",
+      "description": "6-week intensive design program with portfolio review",
+      "instructor": "Jamie Chen",
+      "price": 179,
+      "details": {
+        "start_date": "2023-10-23",
+        "subtitles": "English, Japanese, Korean",
+        "duration": "6 weeks",
+        "level": "Beginner to Intermediate",
+        "content": "Learn the complete UX design process including user research, wireframing, prototyping, and usability testing. Master Figma and Adobe XD while building a professional design portfolio.",
+        "content2": "The course includes design system creation, micro-interactions, accessibility standards, and how to effectively collaborate with developers. You'll complete 3 real-world design projects with expert feedback."
+      }
+    },
+    {
+      "id": 7,
+      "img": "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "Cloud Computing with AWS",
+      "sub-title": "Architect scalable solutions on Amazon Web Services",
+      "description": "8-week preparation for AWS Solutions Architect certification",
+      "instructor": "Michael O'Reilly",
+      "price": 249,
+      "details": {
+        "start_date": "2023-11-06",
+        "subtitles": "English, German, Portuguese",
+        "duration": "8 weeks",
+        "level": "Intermediate",
+        "content": "Learn to design and deploy scalable, highly available systems on AWS. Cover EC2, S3, RDS, Lambda, CloudFormation, and more while preparing for the AWS Certified Solutions Architect exam.",
+        "content2": "The course includes hands-on labs building multi-tier architectures, implementing security best practices, optimizing costs, and automating deployments. You'll complete a capstone project deploying a production-ready application."
+      }
+    },
+    {
+      "id": 8,
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "Digital Marketing Strategy",
+      "sub-title": "Data-driven marketing for the digital age",
+      "description": "6-week executive-level marketing course",
+      "instructor": "Sophia Martinez",
+      "price": 129,
+      "details": {
+        "start_date": "2023-09-25",
+        "subtitles": "English, Spanish, French",
+        "duration": "6 weeks",
+        "level": "Beginner to Advanced",
+        "content": "Master SEO, content marketing, social media, email campaigns, and paid advertising. Learn to analyze metrics and optimize marketing funnels for maximum ROI.",
+        "content2": "The course covers marketing automation tools, customer journey mapping, A/B testing methodologies, and creating data-driven marketing strategies. You'll develop a complete digital marketing plan for a real business case."
+      }
+    },
+    {
+      "id": 9,
+      "img": "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "iOS App Development with SwiftUI",
+      "sub-title": "Build beautiful apps for Apple platforms",
+      "description": "10-week project-based iOS development course",
+      "instructor": "David Kim",
+      "price": 199,
+      "details": {
+        "start_date": "2023-10-30",
+        "subtitles": "English, Mandarin",
+        "duration": "10 weeks",
+        "level": "Intermediate",
+        "content": "Learn modern iOS development using SwiftUI, Combine, and Core Data. Build responsive interfaces, integrate APIs, and publish to the App Store while following Apple's Human Interface Guidelines.",
+        "content2": "The course covers advanced topics like in-app purchases, push notifications, Core ML integration, and widget development. You'll complete 3 portfolio-ready apps including one with ARKit capabilities."
+      }
+    },
+    {
+      "id": 10,
+      "img": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "Cybersecurity Fundamentals",
+      "sub-title": "Protect systems from modern threats",
+      "description": "8-week intensive security training program",
+      "instructor": "Rachel Nguyen",
+      "price": 229,
+      "details": {
+        "start_date": "2023-11-20",
+        "subtitles": "English, Arabic, Russian",
+        "duration": "8 weeks",
+        "level": "Beginner to Intermediate",
+        "content": "Learn ethical hacking techniques, network security, cryptography, and risk management. Practice penetration testing in controlled environments and learn to secure systems against real-world attacks.",
+        "content2": "The course covers OWASP Top 10 vulnerabilities, security compliance standards, incident response procedures, and security auditing. You'll complete hands-on labs simulating enterprise security scenarios."
+      }
     }
   ]
