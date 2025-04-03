@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Card from "../Components/card";
+import Cards from "../Components/Cards";
 
 const AboutUs = () => {
   return (
@@ -61,7 +61,7 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <Card />
+        <Cards />
       </section>
     </>
   );

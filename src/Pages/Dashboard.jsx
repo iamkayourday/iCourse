@@ -4,7 +4,7 @@ import coursesData from "../../datas/courses.json";
 
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Card from "../Components/card";
+import Card from "../Components/Cards";
 import App from "../Components/App";
 import Faqs from "../Components/Faqs";
 
