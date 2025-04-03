@@ -7,6 +7,9 @@ import News from "./Pages/News";
 import AboutUs from "./Pages/AboutUs";
 import HelpAndSupport from "./Pages/HelpAndSupport";
 import Apps from "./Pages/Apps";
+import ICoursesDetails from "./Pages/iCoursesDetails";
+import Footer from "./Components/Footer";
+import NewsDetails from "./Pages/NewsDetails";
 
 const App = () => {
   return (
@@ -21,7 +24,11 @@ const App = () => {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/apps" element={<Apps />} />
         <Route path="/support" element={<HelpAndSupport />} />
+        <Route path="/icourses/:name" element={<ICoursesDetails />} />
+        <Route path="/news/:name" element={<NewsDetails />} />
+
       </Routes>
+      <Footer />
     </Router>
   );
 };
