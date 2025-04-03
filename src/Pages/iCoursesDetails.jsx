@@ -132,7 +132,7 @@ const ICoursesDetails = () => {
           </div>
         </div>
         {/* Next Course Button - Only shows if there is a next course */}
-        {nextCourse && (
+        {/* {nextCourse && (
           <div className="mt-8 flex justify-end">
             <button 
               onClick={() => navigate(`/icourses/${nextCourse.title.toLowerCase().replace(/\s+/g, '-')}`)}
@@ -142,7 +142,7 @@ const ICoursesDetails = () => {
               <FiArrowRight className="ml-2" />
             </button>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );

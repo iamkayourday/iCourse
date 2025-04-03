@@ -7,32 +7,32 @@ const App = () => {
     {
       name: 'Wix',
       category: 'No Code Platform',
-      image: '/framer.avif'
+      image: '/wix.png'
     },
     {
       name: 'Figma',
       category: 'Design Platform',
-      image: '/framer.avif'
+      image: '/figma.png'
     },
     {
       name: 'Notion',
       category: 'Documentation',
-      image: '/framer.avif'
+      image: '/notion.png'
     },
     {
       name: 'Lemon Squeezy',
       category: 'Payment Platform',
-      image: '/framer.avif'
+      image: '/lemon.png'
     },
     {
       name: 'Slack',
       category: 'Collaboration',
-      image: '/framer.avif'
+      image: '/slack.png'
     },
     {
       name: 'ChatGPT',
       category: 'OpenAI',
-      image: '/framer.avif'
+      image: '/chatgpt.png'
     }
   ]
   useEffect(() => {

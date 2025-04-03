@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { useNavigate, useParams } from "react-router-dom";
 import newsData from "../../datas/news.json";
@@ -85,17 +85,17 @@ const NewsDetails = () => {
         </div>
 
         {/* Next News Button */}
-        {nextNews && (
+        {/* {nextNews && (
           <div className="mt-12 flex justify-end">
             <button 
               onClick={() => navigate(`/news/${nextNews.title.toLowerCase().replace(/\s+/g, '-')}`)}
               className="py-3 px-6 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors flex items-center"
             >
-              Next: {nextNews.title}
+              Next
               <FiArrowRight className="ml-2" />
             </button>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );
