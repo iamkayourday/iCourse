@@ -19,13 +19,13 @@ const HelpAndSupport = () => {
 
         <div className="grid md:grid-cols-2 gap-8 mb-20">
           {/* Left Section */}
-          <div className=" p-6 rounded-md flex flex-col justify-between h-full">
+          <div className="p-6 rounded-md flex flex-col justify-between h-full">
             <div>
               <h2 className="text-black font-medium text-xl mb-4">Contacts</h2>
               <p>
                 <strong>Address:</strong>
                 <br />
-                129 - 131 Mar St London E8 3RH
+                129 - 131 Mare Street, London E8 3RH, UK
               </p>
               <p className="mt-4">
                 <strong>Informations:</strong>
@@ -73,10 +73,20 @@ const HelpAndSupport = () => {
             </button>
           </form>
         </div>
-        {/* map */}
-        <h2>Map</h2>
-        <div className="h-50  bg-gray-500 mb-10 rounded-md m-2">
-          <p>map will be here</p>
+        
+        {/* Map Display (Static Image) */}
+        <div className="p-6">
+          <h2 className="text-black font-medium text-xl mb-4">Our Location</h2>
+          <div className="w-full h-96 rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center">
+            <img 
+              src="https://maps.googleapis.com/maps/api/staticmap?center=51.5405,-0.0586&zoom=15&size=800x400&maptype=roadmap&markers=color:red%7C51.5405,-0.0586"
+              alt="Map location"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <p className="text-sm text-gray-500 mt-2 text-center">
+            Map display only - not interactive
+          </p>
         </div>
       </section>
     </>
