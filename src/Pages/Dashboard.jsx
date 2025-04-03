@@ -1,6 +1,6 @@
 import React from "react";
 import { FiArrowRight } from "react-icons/fi";
-import coursesData from "../../data/courses.json";
+import coursesData from "../../datas/courses.json";
 
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";

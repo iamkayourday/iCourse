@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FiSearch, FiX } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
-import newsData from '../../data/news.json';
-import coursesData from '../../data/courses.json';
+import newsData from '../../datas/news.json';
+import coursesData from '../../datas/courses.json';
 
 const SearchBar = ({ onClose }) => {
   const [searchTerm, setSearchTerm] = useState('');

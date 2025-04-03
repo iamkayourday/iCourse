@@ -1,7 +1,7 @@
 import React from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { useNavigate, useParams } from "react-router-dom";
-import coursesData from "../../data/courses.json";
+import coursesData from "../../datas/courses.json";
 
 const ICoursesDetails = () => {
   const navigate = useNavigate();

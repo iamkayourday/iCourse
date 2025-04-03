@@ -1,7 +1,7 @@
 // News.jsx
 import React from "react";
 import { FiArrowRight } from "react-icons/fi";
-import newsData from "../../data/news.json";
+import newsData from "../../datas/news.json";
 import { useNavigate } from "react-router-dom";
 
 const News = () => {
