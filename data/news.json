@@ -1,0 +1,27 @@
+[
+    
+    {
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "The Future of Virtual Reality in Education",
+      "sub-title": "VR technology is transforming how students interact with educational content.",
+      "description": "Immersive learning experiences are becoming more accessible to schools worldwide.",
+      "author": "Michael Chen",
+      "details": {
+        "date": "2023-06-22",
+        "content": "Leading educational institutions are adopting VR solutions to create engaging, interactive learning environments. Studies show VR can improve knowledge retention by up to 75% compared to traditional methods. The technology is particularly effective for complex subjects like anatomy, architecture, and historical recreations, allowing students to explore concepts in 3D space."
+      }
+    },
+    {
+      "id": 2,
+      "img": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "Blockchain Technology for Secure Academic Credentials",
+      "sub-title": "Universities are turning to blockchain to combat credential fraud.",
+      "description": "Decentralized verification systems ensure the authenticity of academic achievements.",
+      "author": "David Rodriguez",
+      "details": {
+        "date": "2023-07-10",
+        "content": "Several prestigious universities have begun issuing digital diplomas on blockchain networks, enabling instant verification by employers and other institutions. This system eliminates the need for time-consuming manual verification processes and significantly reduces cases of diploma forgery. The technology also allows graduates to maintain permanent, tamper-proof records of their academic accomplishments."
+      }
+    }
+  ]

@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "img": "/laptop.avif",
+      "title": "Introduction to Artificial Intelligence",
+      "sub-title": "Learn the fundamentals of AI and machine learning",
+      "description": "8-week course covering core AI concepts and applications",
+      "instructor": "Dr. Emily Watson",
+      "price": 99,
+      "details": {
+        "start_date": "2023-09-05",
+        "subtitles":"English, Spanish, Portuguese, German, French, Italian, Polish, Dutch",
+        "duration": "8 weeks",
+        "level": "Beginner",
+        "content": "This course provides a comprehensive introduction to artificial intelligence, covering machine learning algorithms, neural networks, and practical applications. Students will complete hands-on projects using Python and TensorFlow. No prior AI experience required, but basic programming knowledge is recommended.This course provides a comprehensive introduction to artificial intelligence, covering machine learning algorithms, neural networks, and practical applications. Students will complete hands-on projects using Python and TensorFlow. No prior AI experience required, but basic programming knowledge is recommended.",
+        "content2": "This course provides a comprehensive introduction to artificial intelligence, covering machine learning algorithms, neural networks, and practical applications. Students will complete hands-on projects using Python and TensorFlow. No prior AI experience required, but basic programming knowledge is recommended.This course provides a comprehensive introduction to artificial intelligence, covering machine learning algorithms, neural networks, and practical applications. Students will complete hands-on projects using Python and TensorFlow. No prior AI experience required, but basic programming knowledge is recommended."
+
+      }
+    },
+    {
+      "id": 2,
+      "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "Virtual Reality Development with Unity",
+      "sub-title": "Create immersive VR experiences from scratch",
+      "description": "12-week professional certification program",
+      "instructor": "Mark Johnson",
+      "price": 99,
+      "details": {
+        "start_date": "2023-10-10",
+        "duration": "12 weeks",
+        "level": "Intermediate",
+        "content": "Learn to develop virtual reality applications using Unity3D and C#. The course covers 3D modeling, interaction design, performance optimization, and publishing to major VR platforms. Students will build a portfolio of VR projects including educational simulations and interactive environments."
+      }
+    },
+    {
+      "id": 3,
+      "img": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "title": "Blockchain and Smart Contract Programming",
+      "sub-title": "Master Ethereum development and decentralized applications",
+      "description": "10-week intensive course with certification",
+      "instructor": "Sarah Lin",
+      "price": 299,
+      "details": {
+        "start_date": "2023-11-15",
+        "duration": "10 weeks",
+        "level": "Advanced",
+        "content": "This course teaches blockchain fundamentals, Ethereum architecture, Solidity programming, and smart contract development. Students will learn to build and deploy decentralized applications (DApps) while understanding security best practices and gas optimization techniques."
+      }
+    }
+  ]
